@@ -1,0 +1,11 @@
+:root {
+  /* Colours */
+  --color-text: #fefefe;         /* Clean near-white for crisp readability */
+  --color-primary: #ff9f1c;      /* Vibrant sunset orange */
+  --color-secondary: #2ec4b6;    /* Aqua teal - soft and modern */
+  --color-dark: #0f0f2d;         /* Deep violet for sleek contrast */
+  --color-bg: #3a0ca3;           /* Deep indigo - rich and immersive */
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Blockchain storage and servises",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project I made to for the casptone. This provide safe storage and secure transactions ",
+    "skills": ["Smart Contracts", "Cryptography", "Ganache", "Python"],
+    "source": "https://github.com/saikiran-nathani/blockchain_services"
+  },
+  {
+    "title": "CO/CO2 emission prediction for a blast furnace to adjust the fuel according to conbumstion of the fuel",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Machine Learning", "Deep Learning", "Data Analysis"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/saikiran-nathani/blockchain_services"
+  },
+  {
+    "title": "Chatbots using pre-trained LLMs ",
+    "imageSrc": "projects/project.png",
+    "description": "This project involves development of chatbots that interact with patients and give them insights on their medical condition, provide medication and book consultation with a relevent doctor",
+    "skills": ["LLMs", "Datasets", "Fine-tuning", "Python"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

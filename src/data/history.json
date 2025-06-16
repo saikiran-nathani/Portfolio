@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Gen-AI Developer",
+    "organisation": "MedAI Technologies",
+    "startDate": "Sep, 2024",
+    "endDate": "Feb, 2025",
+    "experiences": ["Fine-Tuned LLMs for providing medical Insights for the patients based on the symptoms description",
+      "Developed a chatbot for interacting with the patient and providing care for the patient and book consultations with real doctors"],
+    "imageSrc": "history/medAI.jpg"
+  },
+  {
+    "role": "ML Intern",
+    "organisation": "Vizag Steel Plant, RINL",
+    "startDate": "Dec, 2023",
+    "endDate": "Jan, 2024",
+    "experiences": [
+      "Developed a prediction model for forecasting the emissions of CO/CO2 in a blast furnace",
+      "Developed a model for data analysis of the blast furnace"
+    ],
+    "imageSrc": "history/rinl.jpg"
+  }
+]
