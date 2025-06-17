@@ -38,12 +38,10 @@ export const Navbar = () => {
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li>
-              <button onClick={toggleTheme} className={styles.themeToggle}>
-                {theme === "light" ? "🌙" : "☀️"}
-              </button>
-            </li>
           </ul>
+          <button onClick={toggleTheme} className={styles.themeToggle}>
+            {theme === "light" ? "🌙" : "☀️"}
+          </button>
 
           {/* 🍔 Mobile Menu Button */}
           <img
