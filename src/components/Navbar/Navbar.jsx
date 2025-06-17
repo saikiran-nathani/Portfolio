@@ -39,22 +39,22 @@ export const Navbar = () => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          <div className={styles.controls}>
+            <button onClick={toggleTheme} className={styles.themeToggle}>
+              {theme === "light" ? "🌙" : "☀️"}
+            </button>
 
-
-          {/* 🍔 Mobile Menu Button */}
-          <img
-              className={styles.menuBtn}
-              src={
-                menuOpen
-                    ? getImageUrl("nav/closeIcon.png")
-                    : getImageUrl("nav/menuIcon.png")
-              }
-              alt="menu-button"
-              onClick={() => setMenuOpen(!menuOpen)}
-          />
-          <button onClick={toggleTheme} className={styles.themeToggle}>
-            {theme === "light" ? "🌙" : "☀️"}
-          </button>
+            <img
+                className={styles.menuBtn}
+                src={
+                  menuOpen
+                      ? getImageUrl("nav/closeIcon.png")
+                      : getImageUrl("nav/menuIcon.png")
+                }
+                alt="menu-button"
+                onClick={() => setMenuOpen(!menuOpen)}
+            />
+          </div>
         </div>
       </nav>
 
