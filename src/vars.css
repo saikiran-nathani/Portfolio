@@ -1,11 +1,19 @@
+/* Default (Dark Mode) */
 :root {
-  /* Colours */
-  --color-text: #fefefe;         /* Clean near-white for crisp readability */
-  --color-primary: #ff9f1c;      /* Vibrant sunset orange */
-  --color-secondary: #2ec4b6;    /* Aqua teal - soft and modern */
-  --color-dark: #0f0f2d;         /* Deep violet for sleek contrast */
-  --color-bg: #3a0ca3;           /* Deep indigo - rich and immersive */
+  --color-text: #f8f9fa;
+  --color-primary: #434d7e;
+  --color-secondary: #205954;
+  --color-dark: #2d2e32;
+  --color-bg: #121212;
 
-  /* Fonts */
-  --font-roboto: "Roboto";
+  --font-roboto: roboto
+}
+
+/* Light Mode */
+:root.light-mode {
+  --color-text: #1a1a1a;
+  --color-primary: #94a8ff;
+  --color-secondary: #2ec4b6;
+  --color-dark: #f3fad7;
+  --color-bg: rgba(248, 247, 235, 0.88);
 }

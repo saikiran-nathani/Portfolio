@@ -1,15 +1,15 @@
 [
   {
-    "title": "Blockchain storage and servises",
+    "title": "Blockchain As A Service",
     "imageSrc": "projects/project.png",
-    "description": "This is a project I made to for the casptone. This provide safe storage and secure transactions ",
+    "description": "This is a project I developed for capstone. This provides safe storage and secure blockchain transactions for the clients",
     "skills": ["Smart Contracts", "Cryptography", "Ganache", "Python"],
     "source": "https://github.com/saikiran-nathani/blockchain_services"
   },
   {
-    "title": "CO/CO2 emission prediction for a blast furnace to adjust the fuel according to conbumstion of the fuel",
+    "title": "CO/CO2 ratio prediction for a blast furnace",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "I developed a machine learning model for predicting the ratio of CO/CO2 for a blast furnace to estimate the fuel consumption.",
     "skills": ["Machine Learning", "Deep Learning", "Data Analysis"],
     "demo": "https://www.example.com",
     "source": "https://github.com/saikiran-nathani/blockchain_services"

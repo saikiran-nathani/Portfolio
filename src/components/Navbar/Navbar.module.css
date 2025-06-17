@@ -11,25 +11,27 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
 }
 
 
-.menuBtn {
-  display: none;
-}
-
 .menu {
   display: flex;
 }
 
+.actions {
+  display: flex;
+  align-items: center;
+}
+
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 40px;
   list-style: none;
+  align-items: center;
 }
 
 .menuItems a {
@@ -37,6 +39,20 @@
   color: var(--color-text);
   text-decoration: none;
 }
+
+.themeToggle {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.menuBtn {
+  display: none;
+  margin-left: 1rem;
+}
+
 
 @media screen and (max-width: 830px) {
   .navbar {

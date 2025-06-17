@@ -1,10 +1,21 @@
+@import './vars.css';
+
+/* Global reset + font */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+/* Theme-aware global styling */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
