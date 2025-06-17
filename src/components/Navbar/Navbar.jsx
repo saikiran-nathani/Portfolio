@@ -39,9 +39,7 @@ export const Navbar = () => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <button onClick={toggleTheme} className={styles.themeToggle}>
-            {theme === "light" ? "🌙" : "☀️"}
-          </button>
+
 
           {/* 🍔 Mobile Menu Button */}
           <img
@@ -54,6 +52,9 @@ export const Navbar = () => {
               alt="menu-button"
               onClick={() => setMenuOpen(!menuOpen)}
           />
+          <button onClick={toggleTheme} className={styles.themeToggle}>
+            {theme === "light" ? "🌙" : "☀️"}
+          </button>
         </div>
       </nav>
 
